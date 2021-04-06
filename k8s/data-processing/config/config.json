@@ -1,39 +1,4 @@
 {
-    "tracts": {
-        "histogramQueryFile": "statistics/queries/us_census_tracts_histogram.sql",
-        "exportQueryFile": "statistics/exports/us_tracts.sql",
-        "dataset": "statistics",
-        "table": "us_tracts",
-        "outputPath": "v0/NA/US/tracts/{{ .GEOID }}/{{ .year }}/histogram_daily_stats.json"
-    },
-    "states": {
-        "histogramQueryFile": "statistics/queries/us_states_territories_histogram.sql",
-        "exportQueryFile": "statistics/exports/us_states.sql",
-        "dataset": "statistics",
-        "table": "us_states",
-        "outputPath": "v0/NA/US/states/{{ .GEOID }}/{{ .year }}/histogram_daily_stats.json"
-    },
-    "counties": {
-        "histogramQueryFile": "statistics/queries/us_county_histogram.sql",
-        "exportQueryFile": "statistics/exports/us_counties.sql",
-        "dataset": "statistics",
-        "table": "us_counties",
-        "outputPath": "v0/NA/US/counties/{{ .GEOID }}/{{ .year }}/histogram_daily_stats.json"
-    },
-    "counties_asn": {
-        "histogramQueryFile": "statistics/queries/us_county_asn_histogram.sql",
-        "exportQueryFile": "statistics/exports/us_counties_asn.sql",
-        "dataset": "statistics",
-        "table": "us_counties_asn",
-        "outputPath": "v0/NA/US/counties/{{ .GEOID }}/asn/{{ .asn }}/{{ .year }}/histogram_daily_stats.json"
-    },
-    "tracts_asn": {
-        "histogramQueryFile": "statistics/queries/us_census_tracts_asn_histogram.sql",
-        "exportQueryFile": "statistics/exports/us_tracts_asn.sql",
-        "dataset": "statistics",
-        "table": "us_tracts_asn",
-        "outputPath": "v0/NA/US/tracts/{{ .GEOID }}/asn/{{ .asn }}/{{ .year }}/histogram_daily_stats.json"
-    },
     "states_asn": {
         "histogramQueryFile": "statistics/queries/us_states_territories_asn_histogram.sql",
         "exportQueryFile": "statistics/exports/us_states_asn.sql",
