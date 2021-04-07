@@ -1,6 +1,6 @@
 {
     "states_asn": {
-        "histogramQueryFile": "statistics/queries/us_states_territories_asn_histogram.sql",
+        "histogramQueryFile": "statistics/queries/us_state_territories_asn_histogram.sql",
         "exportQueryFile": "statistics/exports/us_states_asn.sql",
         "dataset": "statistics",
         "table": "us_states_asn",
