@@ -18,5 +18,5 @@ echo "Stats-pipeline completed successfully"
 # Note: this is disabled until the maptiles generation can run on multiple
 # years. Currently, 2020 is hardcoded and it would be pointless to regenerate
 # the maptiles every time the stats-pipeline runs.
-#export GCS_BUCKET=maptiles-${PROJECT}
-#make piecewise
+export GCS_BUCKET=maptiles-${PROJECT}
+make piecewise
